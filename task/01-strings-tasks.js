@@ -58,11 +58,7 @@ function getStringLength(value) {
  *   'Chuck','Norris'  => 'Hello, Chuck Norris!'
  */
 function getStringFromTemplate(firstName, lastName) {
-     var str0 = strings[0]; // "hello ,"
-  //var str1 = strings[1]; // " , "
-
- 
-  return str0+firstName+str1 +lastName;
+     return 'Hello ,'+firstName+' '+lastName
 }
 
 /**
