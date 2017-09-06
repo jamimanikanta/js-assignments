@@ -41,8 +41,7 @@ return `${width*height}`;
 function getCicleCircumference(radius) {
     
 
-return 2*(3.14159)*radius;
-
+return 2*(3.141592653589793)*radius;
 
 }
 
@@ -60,7 +59,7 @@ return 2*(3.14159)*radius;
  */
 function getAverage(value1, value2) {
 
-  return (value1+value2)/2;
+   return (Number(value1)+Number(value2))/2;
 }
 
 /**
