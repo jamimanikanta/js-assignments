@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 
 /********************************************************************************************
  *                                                                                          *
@@ -22,7 +22,10 @@
  *   '',  'bb'  => 'bb'
  */
 function concatenateStrings(value1, value2) {
-    throw new Error('Not implemented');
+
+return (value1+value2).toString();
+
+  
 }
 
 
