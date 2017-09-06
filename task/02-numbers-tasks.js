@@ -41,7 +41,8 @@ return `${width*height}`;
 function getCicleCircumference(radius) {
     
 
-return 2*(22/7)*radius;
+return 2*(3.14159)*radius;
+
 
 }
 
@@ -59,7 +60,7 @@ return 2*(22/7)*radius;
  */
 function getAverage(value1, value2) {
 
-   return (value1+value2)/2;
+  return (value1+value2)/2;
 }
 
 /**
@@ -157,7 +158,8 @@ function getLastDigit(value) {
  */
 function parseNumberFromString(value) {
     
-return parseInt(value); 
+return Number(value);
+
 
 }
 
