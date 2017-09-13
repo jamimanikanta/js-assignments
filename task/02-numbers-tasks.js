@@ -59,7 +59,7 @@ return 2*(3.141592653589793)*radius;
  */
 function getAverage(value1, value2) {
 
-   return (Number(value1)+Number(value2))/2;
+   return value1 / 2 + value2 / 2;
 }
 
 /**
@@ -99,7 +99,7 @@ var c = Math.sqrt( a*a + b*b );
  *   5*x = 0         => 0
  */
 function getLinearEquationRoot(a, b) {
-    throw new Error('Not implemented');
+   return -b / a;
 }
 
 
@@ -121,7 +121,7 @@ function getLinearEquationRoot(a, b) {
  *   (0,1) (1,2)     => 0
  */
 function getAngleBetweenVectors(x1, y1, x2, y2) {
-    throw new Error('Not implemented');
+     return Math.abs(Math.atan(y1 / x1) - Math.atan(y2 / x2));
 }
 
 /**
